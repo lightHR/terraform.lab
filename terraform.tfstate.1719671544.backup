@@ -1,0 +1,35 @@
+{
+  "version": 4,
+  "terraform_version": "1.9.0",
+  "serial": 1,
+  "lineage": "dbe10545-fb9e-857e-6385-e1d9589e1ef8",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "docker_image",
+      "name": "container_image",
+      "provider": "provider[\"registry.terraform.io/kreuzwerker/docker\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "build": [],
+            "force_remove": null,
+            "id": "sha256:c42c21cd0ebcba484f61742f2e9367473bdf052b3d688a391008fa3bc997d1f6grafana/grafana",
+            "image_id": "sha256:c42c21cd0ebcba484f61742f2e9367473bdf052b3d688a391008fa3bc997d1f6",
+            "keep_locally": null,
+            "name": "grafana/grafana",
+            "platform": null,
+            "pull_triggers": null,
+            "repo_digest": "grafana/grafana@sha256:f24b8deee3c8894b97881626fbf7b83f0bb0691d8acdce8d767742ed8ce90e8e",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
